@@ -1,0 +1,139 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #000000;
+}
+.pic {
+  background-image: url("assets/images/bg.jpg");
+  background-position: center center;
+
+  height: 788px;
+  position: relative;
+  overflow: hidden;
+}
+.heading{
+    color: white;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 50px;
+}
+.pic img {
+  width: 100vw;
+  height: auto;
+  filter: blur(1px);
+}
+
+.overlay {
+  height: 788px;
+  width: 100%;
+  opacity: 0.69;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+.nav {
+  color: white;
+}
+.pic button {
+  cursor: pointer;
+  background-color: #00aa00;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  font-family: "Pixelify Sans", sans-serif;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 44%;
+  border: none;
+}
+.pic button{:hover{
+  transition: ease-in 100ms;
+  padding: 2px;
+  background-color: #007a00;}
+}
+.green.shadow {
+    text-shadow: 3px 3px #153F15;
+    font-family: "Pixelify Sans", sans-serif;
+  }
+.pic button img {
+  z-index: 1;
+  position: relative;  
+  height: 24px;
+  width: 24px;
+}
+.head2{
+    margin-top: 30px;
+    color: white;
+    position: relative;
+    font-size: 24px;
+    font-family: "Pixelify Sans", sans-serif;
+font-weight: 500;
+margin-left: 10px;
+}
+.box{
+color: rgb(181, 237, 255);
+    font-family: "Pixelify Sans", sans-serif;
+    height: 350px;
+    width: 650px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, rgb(93, 6, 6), rgb(8, 51, 100));
+    margin-left:  50px;
+
+
+}
+.char{
+    position: relative;
+    top: 20%;
+    margin-top: 80px;
+    height: 250px;
+    margin-left: 360px;
+   
+}
+.seperation{
+   margin-top: 4px;
+    height: 3px;
+    width: 100vw;
+    background-color: grey;
+}
+footer{
+   
+    padding: 100px;
+    color: rgb(156, 152, 146);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer div{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+footer ul{
+   display: grid;
+   list-style: none;
+   grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  grid-auto-rows: minmax(10px, auto);
+}
+.final{
+    margin-top: 50px;
+    text-align: center;
+}
+.spider{
+    height: 500px;
+}
+.design{
+    display: flex;
+
+}
+.design2{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 300px;
+    margin-top: 30px;
+}
+

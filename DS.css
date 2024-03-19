@@ -1,0 +1,28 @@
+*{
+  background-color: #efcffc;
+
+}
+.ha{
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 50px;
+    color: #3d0000;
+    
+}
+.img1 img{
+    height: 200px;
+ 
+    right: 300px;
+}
+.details1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.facts1{
+    font-family: "Pixelify Sans", sans-serif;
+}
+.f{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
